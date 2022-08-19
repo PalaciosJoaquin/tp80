@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+	class CEmpleados{
+		constructor(nombre,nacimiento,direccion){
+			this.nombre=nombre;
+			this.nacimiento=nacimiento;
+			this.direccion=direccion;
+		}
+	}
+	const empleado1=new CEmpleados('Robert',1994,'64C-WallsStreat');
+	document.write('El nombre del empleado es: '+empleado1.nombre + '<br>');
+	document.write('El nacimiento del empleado es: '+empleado1.nacimiento + '<br>');
+	document.write('La direccion del empleado es: '+empleado1.direccion + '<br>' + '<br>');
+	const empleado2=new CEmpleados('Sam,2000','68D-WallsStreat');
+	document.write('El nombre del empleado es: '+empleado2.nombre + '<br>');
+	document.write('El nacimiento del empleado es: '+empleado2.nacimiento + '<br>');
+	document.write('La direccion del empleado es: '+empleado2.direccion + '<br>' + '<br>');
+	const empleado3=new CEmpleados('John,1999','26B-WallsStreat');
+	document.write('El nombre del empleado es: '+empleado3.nombre + '<br>');
+	document.write('El nacimiento del empleado es: '+empleado3.nacimiento + '<br>');
+	document.write('La direccion del empleado es: '+empleado3.direccion + '<br>' + '<br>');
+</script>
+</body>
+</html>
